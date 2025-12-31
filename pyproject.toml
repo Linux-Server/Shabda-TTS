@@ -1,0 +1,13 @@
+[project]
+name = "shabda-tts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "librosa==0.10.2.post1",
+    "matplotlib>=3.10.8",
+    "soundfile>=0.13.1",
+    "torch>=2.9.1",
+    "torchaudio>=2.9.1",
+]
